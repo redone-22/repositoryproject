@@ -1,0 +1,51 @@
+@font-face{
+    font-family: bombermanFont;
+    src:url("bomberman.ttf");
+}
+body{
+    background-color: black;
+    font-family: bombermanFont;
+    color: white;
+    font-size: 3em;
+    overflow:hidden;
+
+}
+
+
+#sherm_game_over{
+    position: absolute;
+    top: 12vh;
+    left: 30vw;
+    width: 80vw;
+    height: 80vh;
+}
+
+#try_again{
+    display: none;
+    margin-top: 27vh;
+    position: absolute;
+}
+#terug{
+    display: none;
+    margin-top: 38vh;
+    position: absolute;
+}
+#gameover{
+    display: none;
+}
+#gameover:hover{
+    color: orange;
+}
+#try_again:hover{
+    color: orange;
+}
+#terug:hover{
+    color: darkorange;
+}
+
+#animatie{
+    display: none;
+    margin-left: 3vw;
+    position: absolute;
+    margin-top: -8vw;
+}

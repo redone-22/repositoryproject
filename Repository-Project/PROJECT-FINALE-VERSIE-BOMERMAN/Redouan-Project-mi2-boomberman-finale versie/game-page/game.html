@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+    <script src="../js/jquery-1.12.1.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="js/item-bonus-hart.js"></script>
+    <script src="../js/sound.js"></script>
+    <script src="js/bomb.js" ></script>
+    <script src="js/collision-detection.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/movement.js"></script>
+    <script>level();</script>
+    <script src="js/timer.js" ></script>
+    <script src="js/score.js"></script>
+    
+     
+  
+
+</head>
+<body>
+    <div id="scherm">
+    <div id="stateBarre">
+
+        <img src="img/sound.png" id="sound">
+        <div id="leven">
+        <div id="life">Life</div>
+        <div id="hartcontainer">
+            <div id="harten"></div>
+            </div>
+            </div>
+        <div id="timer">00:00</div>
+        <div id="bon">
+        <div id="bonus">Score</div>
+            <div id="score">0</div>
+            
+            </div>
+    </div> 
+     <div id="gamePlatform">
+<img src='img/tileStone.png' alt='tileStone' class="stone" id='temp' style="position:absolute;display: none" >
+        
+         <img src="img/monstre1.gif" alt="monster" id="monster0" class="monsters">
+         <img src="img/monstre1.gif" alt="monster" id="monster1" class="monsters">
+         <img src="img/monstre1.gif" alt="monster" id="monster2" class="monsters">
+         <img src="img/normal_bomber.png" alt="bomberman" id="bomber" class="bomberman">
+    </div>
+        </div>
+    <img src="img/boven-g.png" alt="boven" id="boven">
+    <img src="img/beneden-g.png" alt="beneden" id="beneden">
+    <img src="img/links-g.png" alt="links" id="links">
+    <img src="img/recht-g.png" alt="rechts" id="rechts">
+    <img src="img/bomb-g.png" alt="bomb" id="bombg">
+    </body>
+</html>

@@ -1,0 +1,82 @@
+@font-face{
+    font-family: bombermanFont;
+    src:url("bomberman.ttf");
+}
+body{
+    background-image: url("../img/ending-bomberman.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#kader{
+    width: 50vw;
+    height: 50vh;
+    background-color: antiquewhite;
+    border-color: black;
+    border-style: outset;
+    top: 15vh;
+    left: 25vw;
+    position: relative;
+    
+}
+#youwon{
+    margin-top: 3vh;
+    font-family: bombermanFont;
+    font-size: 2vw;
+    text-align: center;
+}
+#scoreTit{
+    font-family: bombermanFont;
+    font-size: 2vw;
+    text-align: center;
+}
+#namen{
+    font-family: bombermanFont;
+        margin-top: 2vh;
+
+    font-size: 2vw;
+    text-align: center;
+}
+#naamText{
+    font-family: bombermanFont;
+    margin-top: 2vh;
+    font-size: 2vw;
+    margin-left: 9vw;
+    border-radius: 1vw;
+    border-color: black;
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+#totscore{
+    font-family: bombermanFont;
+    font-size: 2vw;
+    margin-left: 15.5vw;
+    border-radius: 1vw;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    background-color: orange;
+    width: 20vw;
+    height: 5vh;
+    margin-top: 3vh;
+}
+#submit{
+    font-family: bombermanFont;
+    font-size: 2vw;
+    margin-left: 18vw;
+    border-radius: 1vw;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    background-color: orange;
+    width: 15vw;
+    margin-top: 3vh;
+}
+#submit:hover{
+    background-color: darkorange;
+}
+#submit:active{
+    color: white;
+}

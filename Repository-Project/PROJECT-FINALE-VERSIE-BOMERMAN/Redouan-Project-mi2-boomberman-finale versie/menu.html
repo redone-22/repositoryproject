@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no" />
+    <title>Bomberman</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+
+<body>
+    <img src="img/back.png" id="back" alt="back">
+   <img src="img/bomberman_zps00c5941b.png" id="logo" alt="logo">
+    <div id="container" class="cont">
+        <div class="selection" id="start">Start</div>
+        <div class="selection" id="tuto">Tutorial</div>
+        <div class="selection" id="quit">Quit the game</div>
+    </div>
+    <div id="tcontainer" class="cont">
+        <img src="img/boven.png" class="touche" alt="boven">
+        <img src="img/links.png" class="touche" alt="links">
+        <img src="img/rechts.png" class="touche" alt="rechts">
+        <img src="img/onder.png" class="touche" alt="beneden">
+        <div class="toucheText">Naar boven</div>
+        <div class="toucheText">Naar links</div>
+        <div class="toucheText">Naar rechts</div>
+        <div class="toucheText">Naar beneden</div>
+
+        <img src="img/space.png" id="space" alt="space">
+        <div id="spaceText">Om een bom te plaatsen</div>
+        <div id="uitleg">
+            <ul>
+                <li>Wanneer een monster een bom aanraakt</li>
+                        <li>Uw score wordt verhoogt</li>
+                        <ul>
+                            <li>Van 20 als u minder dan 3 monsters heeft gedooden</li>
+                            <li>Van 30 als u meer dan 3 monsters heeft gedooden</li>
+                            <li>Van 40 als u meer dan 6 monsters heeft gedooden</li>
+                        </ul>
+                        <li>De monster sterft en een andere monster onstaat in zijn initiele plaats</li>
+                        <li>U krijgt een hart als u 3 monster na elkaar dood</li>
+                <li>Als een bom u aanraakt verliest u 1 hart en 30 punten van uw score</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

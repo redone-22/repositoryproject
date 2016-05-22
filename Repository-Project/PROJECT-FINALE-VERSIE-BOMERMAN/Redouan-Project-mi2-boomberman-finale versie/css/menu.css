@@ -1,0 +1,102 @@
+body{
+    background-color: chocolate;
+    background-position: center center;
+	background-size: contain;
+	overflow-y: hidden;
+	overflow-x:hidden;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+@font-face{
+    font-family: bombermanFont;
+    src:url("../game-page/css/bomberman.ttf");
+}
+.touche{
+    width: 5vw;
+    height: 10vh;
+    margin-left: 5.5vw;
+}
+#uitleg{
+    font-family: bombermanFont;
+    width: 50vw;
+    height: 10vh;
+    float: left;
+    font-size: 1.2vw;
+    line-height: 2.3vh;
+}
+#back{
+    width: 10vw;
+    height: 10vh;
+    display: none;
+    left: 10%;
+    position: relative;
+}
+.toucheText{
+    font-family: bombermanFont;
+    width: 5vw;
+    height: 9vh;
+    margin-left: 5.7vw;
+    float: left;
+    text-align: center;
+    font-size: 1.8vw;
+}
+#spaceText{
+    width: 20vw;
+    height: 3vh;
+    margin-left: 15vw;
+    font-family: bombermanFont;
+    text-align: center;
+    font-size: 1vw;
+}
+#space{
+    width: 20vw;
+    height: 5vh;
+    margin-left: 15vw;
+}
+.cont{
+    top: 5%;
+    left: 23%;
+    width:50vw;
+    height: 60vh;
+    position: relative;
+    background-color: azure;
+    border-style: inset;
+    border-color: darkorange;
+    padding-top: 2vw;
+}
+.selection{
+    display: none;
+    font-family: bombermanFont;
+    font-size: 2vw;
+    width: 30vw;
+    height: 9vh;
+    background-color: orange;
+    border-style: outset;
+    /*padding-top: 1.9%;
+    padding-left: 8%;*/
+    border-radius: 8vw; 
+    margin-left: 10vw;
+    margin-top: 2vh;
+    position: relative;
+    text-align: center;
+    padding-top: 3vh;
+}
+.selection:hover{
+    background-color: darkorange;
+}
+.selection:active{
+    color: white;
+}
+#logo{
+    height: 20vh;
+    width: 50vw;
+    left: 24%;
+    position: relative;
+
+}
+#tcontainer{
+    display: none;
+}

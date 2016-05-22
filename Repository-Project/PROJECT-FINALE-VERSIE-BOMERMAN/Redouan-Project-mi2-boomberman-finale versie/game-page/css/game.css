@@ -1,0 +1,247 @@
+body {
+    overflow: hidden;
+    background-image: url("../../img/bomberman-back.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 99%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#sound {
+    width: 5%;
+    height: 50%;
+    float: left;
+    margin-left: 2%;
+}
+
+@font-face {
+    font-family: bombermanFont;
+    src: url("bomberman.ttf");
+}
+
+#scherm {
+    width: 70%;
+    margin-left: 10%;
+}
+
+#gamePlatform {
+    background-image: url("../img/platform.png");
+    height: 83.5vh;
+    width: 80vw;
+    border: dashed;
+    border-color: black;
+    border-top: none;
+    position: relative;
+}
+
+#stateBarre {
+    height: 13vh;
+    width: 80vw;
+    margin-top: 1vh;
+    background-color: white;
+    border: 3px solid black;
+    padding-top: 1vh;
+    background-image: url(../img/bg_space.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#leven {
+    width: 17vw;
+    height: 10vh;
+    float: left;
+    margin-left: 4%;
+}
+
+#life {
+    font-family: bombermanfont;
+    font-size: 1.8vw;
+    width: 13.6vw;
+    height: 3.3vh;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+}
+
+#hartcontainer {
+    width: 13.6vw;
+    height: 6vh;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+    border-top: none;
+}
+
+.hartimg {
+    float: left;
+    margin-left: 5.8wh;
+    width: 20%;
+    height: 20%;
+    margin-top: 0.5vh;
+}
+
+#bon {
+    margin-right: 2vw;
+    width: 13vw;
+    margin-left: 7vw;
+    height: 8vh;
+    float: right;
+}
+
+#bonus {
+    font-family: bombermanfont;
+    font-size: 1.8vw;
+    width: 13.7vw;
+    height: 3.2vh;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+}
+
+#score {
+    font-family: bombermanfont;
+    width: 13.7vw;
+    height: 5.5vh;
+    text-align: center;
+    background-color: white;
+    border: solid black;
+    border-top: none;
+    font-size: 3vw;
+}
+
+#timer {
+    font-family: bombermanFont;
+    margin-left: 9vw;
+    width: 15vw;
+    height: 10vh;
+    border: solid;
+    font-size: 4vw;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+
+.stone {
+    /*background-image: url(";../img/tileStone.png");
+    background-repeat: no-repeat;*/
+    height: 11.2%;
+    width: 9.06%;
+    z-index: 1000;
+    /*top: 350px;
+    left: 250px;
+    */
+    /*border: solid black 1px;*/
+}
+
+.transparent {
+    height: 11.2%;
+    width: 9.06%;
+}
+
+#bomber {
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    width: 5%;
+    height: 5%;
+}
+
+#monster0 {
+    position: absolute;
+    top: 550px;
+    left: 220px;
+    width: 60px;
+    height: 60px;
+}
+
+#monster1 {
+    position: absolute;
+    top: 120px;
+    left: 1080px;
+    width: 60px;
+    height: 60px;
+}
+
+#monster2 {
+    position: absolute;
+    top: 550px;
+    left: 1090px;
+    width: 60px;
+    height: 60px;
+}
+
+#boven {
+    opacity: 0.77;
+    top: 71.7vh;
+    left: 6vw;
+    position: absolute;
+    width: 6vw;
+    height: 10vh;
+    visibility: hidden;
+}
+
+#beneden {
+    opacity: 0.77;
+    top: 91vh;
+    left: 6vw;
+    position: absolute;
+    width: 6vw;
+    height: 10vh;
+    visibility: hidden;
+}
+
+#links {
+    opacity: 0.77;
+    top: 81.4vh;
+    left: 0.1vw;
+    position: absolute;
+    width: 6vw;
+    height: 10vh;
+    visibility: hidden;
+}
+
+#rechts {
+    opacity: 0.77;
+    top: 81.4vh;
+    left: 11.7vw;
+    position: absolute;
+    width: 6vw;
+    height: 10vh;
+    visibility: hidden;
+}
+
+#bombg {
+    opacity: 0.77;
+    top: 87vh;
+    left: 88vw;
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    visibility: hidden;
+}
+
+@media only screen and (max-device-width: 1350px) {
+    
+    #boven {
+        visibility: visible;
+    }
+    #beneden {
+        visibility: visible;
+    }
+    #links {
+        visibility: visible;
+    }
+    #rechts {
+        visibility: visible;
+    }
+    #bombg {
+        visibility: visible;
+    }
+}
